@@ -17,3 +17,5 @@
 * And hidden files (starting with .)
 ## mkdir /tmp/holberton/
 6-firstdirectory - Creates a script that creates a directory named holberton in the /tmp/ directory.
+## mv /tmp/betty /tmp/holberton/
+7-movethatfile - Moves the file betty from /tmp/ to /tmp/holberton.
