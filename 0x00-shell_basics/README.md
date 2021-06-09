@@ -23,3 +23,5 @@
 8-firstdelete - Delete the file betty.
 
 * The file betty is in /tmp/holberton
+## rmdir /tmp/holberton
+9-firstdeletion - Deletes the directory holberton that is in the /tmp directory.
