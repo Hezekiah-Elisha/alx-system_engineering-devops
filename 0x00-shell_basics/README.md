@@ -27,3 +27,5 @@
 9-firstdirdeletion - Deletes the directory holberton that is in the /tmp directory.
 ## cd -
 10-back - a script that changes the working directory to the previous one.
+## ls -l -a . .. /boot
+11-lists - a script that lists all files (even ones with names beginning with a period character, which are normally hidden) in the current directory and the parent of the working directory and the /boot directory (in this order), in long format.
