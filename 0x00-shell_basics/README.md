@@ -25,3 +25,5 @@
 * The file betty is in /tmp/holberton
 ## rmdir /tmp/holberton
 9-firstdirdeletion - Deletes the directory holberton that is in the /tmp directory.
+## cd -
+10-back - a script that changes the working directory to the previous one.
