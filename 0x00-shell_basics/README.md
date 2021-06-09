@@ -12,6 +12,8 @@
 ## ls -lna
 5-listfilesdigitonly - Display current directory contents.
 
-*Long format
-*with user and group IDs displayed numerically
-*And hidden files (starting with .)
+* Long format
+* with user and group IDs displayed numerically
+* And hidden files (starting with .)
+## mkdir /tmp/holberton/
+6-firstdirectory - Creates a script that creates a directory named holberton in the /tmp/ directory.
