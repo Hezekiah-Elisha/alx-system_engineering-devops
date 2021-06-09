@@ -5,7 +5,13 @@
 1-listit -displays the content list of your current directory.
 ## cd
 2-bring me home - changes working directory to the user's home directory.
-## list -l
+## ls -l
 3-listfiles - Displays current directory contents in a long format
-## list -l -a
+## ls -l -a
 4-listmorefiles - Displays current directory contents, including hidden files (starting with .). Use the long format.
+## ls -lna
+5-listfilesdigitonly - Display current directory contents.
+
+*Long format
+*with user and group IDs displayed numerically
+*And hidden files (starting with .)
