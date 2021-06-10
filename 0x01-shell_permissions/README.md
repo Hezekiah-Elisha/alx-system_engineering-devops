@@ -38,3 +38,5 @@
 11-directories_permissions - a script that adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users. Regular files should not be changed.
 ## mkdir -m 751 dir holberton
 12-directory_permissions - a script that creates a directory called dir_holberton with permissions 751 in the working directory.
+## chgrp holberton hello
+13-change_group - a script that changes the group owner to holberton for the file hello
