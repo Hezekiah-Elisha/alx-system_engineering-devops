@@ -42,3 +42,8 @@
 13-change_group - a script that changes the group owner to holberton for the file hello
 ## chown -hR betty:holberton .
 100-change_owner_and_group - a script that changes the owner to betty and the group owner to holberton for all the files and directories in the working directory.
+## chown -h betty:holberton _hello
+101-symbolic_link_permissions - Write a script that changes the owner and the group owner of _hello to betty and holberton respectively.
+
+* The file _hello is in the working directory
+* The file _hello is a symbolic link
