@@ -40,3 +40,5 @@
 12-directory_permissions - a script that creates a directory called dir_holberton with permissions 751 in the working directory.
 ## chgrp holberton hello
 13-change_group - a script that changes the group owner to holberton for the file hello
+## chown -hR betty:holberton .
+100-change_owner_and_group - a script that changes the owner to betty and the group owner to holberton for all the files and directories in the working directory.
