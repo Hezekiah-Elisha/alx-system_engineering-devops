@@ -13,5 +13,10 @@
 4-empty - a script that creates an empty file called hello.
 ## chmod u+x hello
 5-execute - a script that adds execute permission to the owner of the file hello.
-## chmod 0+x, g+x, u+r hello
+## chmod 0+r, g+x, u+x hello
 6-multiple permissions - a script that adds execute permission to the owner and the group owner, and read permission to other users, to the file hello.
+## chmod ug0-x hello
+7-everybody - Write a script that adds execution permission to the owner, the group owner and the other users, to the file hello
+
+* The file hello will be in the working directory
+* You are not allowed to use commas for this script
