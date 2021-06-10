@@ -9,3 +9,7 @@
 2-groups - a script that prints all the groups the current user is part of.
 ## chown betty hello
 3-new owner - a script that changes the owner of the file hello to the user betty.
+## touch hello
+4-empty - a script that creates an empty file called hello.
+## chmode u+x hello
+5-execute - a script that adds execute permission to the owner of the file hello.
