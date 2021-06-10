@@ -29,3 +29,8 @@
 ## chmod 753 hello
 9-John Doe - a script that sets the mode of the file hello:
 * ```-rwxr-x-wx 1 julien julien 23 Sep 20 14:25 hello```
+## chmod --refference=hello olleh
+10-mirror_permissions - a script that sets the mode of the file hello the same as olleh’s mode.
+
+* The file hello will be in the working directory
+* The file olleh will be in the working directory
