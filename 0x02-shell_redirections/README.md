@@ -11,3 +11,9 @@
 4-lastlines - displays the last 10 lines of /etc/passwd
 ## head -n 10 /etc/passwd
 5-firstlines - displays the first 10 lines of /etc/passwd
+## head -n 3 iacta | tail -n 1
+6-third line - Write a script that displays the third line of the file iacta.
+
+The file iacta will be in the working directory
+
+* You’re not allowed to use sed
