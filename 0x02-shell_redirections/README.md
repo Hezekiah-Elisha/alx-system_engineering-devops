@@ -5,3 +5,5 @@
 1-confused smiley - a script that displays a confused smiley "(Ôo)'
 ## cat /etc/passwd
 2-hellofile - Displays the content of the /etc/passwd file
+## cat /etc/passwd /etc/hosts
+3-twofiles - Displays the content of /etc/passwd and /etc/hosts
