@@ -67,3 +67,11 @@ Displays all lines of the file /etc/ssh/sshd_config starting with a letter.
 22-users_and_homes = Write a script that displays all users and their home directories, sorted by users.
 
 * Based on the the /etc/passwd file
+## find -empty -printf "%f\n"
+100-empty_casks -  a command that finds all empty files and directories in the current directory and all sub-directories.
+
+* Only the names of the files and directories should be displayed (not the entire path)
+* Hidden files should be listed
+* One file name per line
+* The listing should end with a new line
+* You are not allowed to use basename, grep, egrep, fgrep or rgrep
