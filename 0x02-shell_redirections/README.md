@@ -27,3 +27,8 @@ The file iacta will be in the working directory
 * The file iacta will be in the working directory
 ## find -name "*.js" -type f -delete 
 10-no_more_js - a script that deletes all the regular files (not the directories) with a .js extension that are present in the current directory and all its subfolders.
+## find . -mindepth 1 -type d | wc -l
+11-directories - a script that counts the number of directories and sub-directories in the current directory.
+
+* The current and parent directories should not be taken into account
+* Hidden directories should be counted
