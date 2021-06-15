@@ -63,3 +63,7 @@ Displays all lines of the file /etc/ssh/sshd_config starting with a letter.
 20-hiago - Create a script that removes all letters c and C from input.
 ## rev
 21- esreveR - a script that reverses its input
+## cut -d":" --fields=1,6 /etc/passwd | sort
+22-users_and_homes = Write a script that displays all users and their home directories, sorted by users.
+
+* Based on the the /etc/passwd file
