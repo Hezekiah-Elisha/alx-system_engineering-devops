@@ -17,3 +17,5 @@
 The file iacta will be in the working directory
 
 * You’re not allowed to use sed
+## echo "Holberton School" >  ''\*\\'\"Holberton School\"\'\\*\$\?\*\*\*\*\*\:\)''
+7-file - a shell script that creates a file named exactly \*\\'"Holberton School"\'\\*$\?\*\*\*\*\*:) containing the text Holberton School ending by a new line.
