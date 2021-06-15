@@ -49,3 +49,5 @@ Requirements:
 14-findthatword - diplayss lines containing the pattern "root" from the file /etc/passwd
 ## grep -c "bin" /etc/passwd
 15-countthatword - Display the number of lines that contain the pattern “bin” in the file /etc/passwd
+## grep -e "root" /etc/passwd | grep -A 3 "root"
+16-whatsnext - Display lines containing the pattern “root” and 3 lines after them in the file /etc/passwd.
