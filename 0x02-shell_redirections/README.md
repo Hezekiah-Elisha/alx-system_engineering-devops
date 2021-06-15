@@ -61,3 +61,5 @@ Displays all lines of the file /etc/ssh/sshd_config starting with a letter.
 19-AZ - Replace all characters A and c from input to Z and e respectively.
 ## tr -d "cC"
 20-hiago - Create a script that removes all letters c and C from input.
+## rev
+21- esreveR - a script that reverses its input
