@@ -45,3 +45,5 @@ Requirements:
 * Input format: One line, one word
 * Output format: One line, one word
 * Words should be sorted
+## grep -e "root" /etc/passwd
+14-findthatword - diplayss lines containing the pattern "root" from the file /etc/passwd
