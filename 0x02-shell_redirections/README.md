@@ -47,3 +47,5 @@ Requirements:
 * Words should be sorted
 ## grep -e "root" /etc/passwd
 14-findthatword - diplayss lines containing the pattern "root" from the file /etc/passwd
+## grep -c "bin" /etc/passwd
+15-countthatword - Display the number of lines that contain the pattern “bin” in the file /etc/passwd
