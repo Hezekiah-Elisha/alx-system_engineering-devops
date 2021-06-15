@@ -27,8 +27,8 @@ The file iacta will be in the working directory
 * The file iacta will be in the working directory
 ## find -name "*.js" -type f -delete 
 10-no_more_js - a script that deletes all the regular files (not the directories) with a .js extension that are present in the current directory and all its subfolders.
-## 
-1 -ls | grep -c ^d -directories - a script that counts the number of directories and sub-directories in the current directory.
+## ls -ls | grep -c ^d 
+11-directories - a script that counts the number of directories and sub-directories in the current directory.
 
 * The current and parent directories should not be taken into account
 * Hidden directories should be counted
@@ -72,6 +72,16 @@ Displays all lines of the file /etc/ssh/sshd_config starting with a letter.
 
 * Only the names of the files and directories should be displayed (not the entire path)
 * Hidden files should be listed
+* One file name per line
+* The listing should end with a new line
+* You are not allowed to use basename, grep, egrep, fgrep or rgrep
+## find . -type f -name "*.gif" -printf "%f\n"| rev | cut -d '.' -f2- | rev | LC_ALL=C sort -f
+101-gifs -  a script that lists all the files with a .gif extension in the current directory and all its sub-directories.
+
+* Hidden files should be listed
+* Only regular files (not directories) should be listed
+* The names of the files should be displayed without their extensions
+* The files should be sorted by byte values, but case-insensitive (file aaa should be listed before file bbb, file .b should be listed before file a, and file Rona should be listed after file jay)
 * One file name per line
 * The listing should end with a new line
 * You are not allowed to use basename, grep, egrep, fgrep or rgrep
