@@ -1,10 +1,10 @@
 #!/usr/bin/python3
-"""the reddit api"""
+"""reddit api"""
 import requests
 
 
 def number_of_subscribers(subreddit):
-    url = f"https://www.redit.com/r/{subreddit}/about.json"
+    url = "https://www.reddit.com/r/{}/about.json".format(subreddit)
     headers = {'user-agent': 'MyAPI/0.0.1'}
     response = requests.get(url)
 
